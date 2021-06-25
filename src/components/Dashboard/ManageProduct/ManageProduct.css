@@ -1,0 +1,41 @@
+.manage_table{
+    width:100%;
+}
+.checkout_container{
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+  }
+  tr{
+      text-align: center;
+  }
+  th{
+      border: none;
+      background-color:tomato;
+      color: #fff;
+      text-align: center;
+  }
+  td, th {
+
+    text-align: left;
+    padding: 10px;
+    text-align: center;
+  }
+  td{
+      font-weight: 500;
+      font-size: 20px;
+      /* padding:20px; */
+  }
+.total{
+    border-top: 1px solid tomato;
+
+}
